@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Reader & Generator</title>
+    <link rel="stylesheet" href="../css/clipboard.css" />
+</head>
+<body>
+        <div class="Nav">
+            <div class="Nav-non-select-1">Image</div>
+            <div class="Nav-select">Clipboard</div>
+            <div class="Nav-non-select-2">Generate</div>
+        </div>
+            <div class="URL">
+                <div class="URL-input-container">
+                    <input type="text" class="url-input" placeholder="Decoded URL will appear here" />
+                    <div class="open-url-container">
+                        <img src="/images/open-url.svg" alt="open-url" class="open-url" />
+                      </div>
+                </div>
+            </div>
+            <div class="Upload">
+                <div class="Upload-image-container">
+                    <img src="/images/clipboard.svg" alt="Upload" class="Upload-img" />
+                </div>
+                <div class="Upload-text-container">
+                    <div class="Upload-text-1">Click to paste(Ctrl+V)</div>
+                    <div class="Upload-text-2">image that include QR code</div>
+                </div>
+            </div>
+    </div>
+
+    <script src="../js/jsQR.js"></script>
+    <script src="../js/clipboard.js"></script>
+</body>
+</html>

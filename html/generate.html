@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Reader & Generator</title>
+    <link rel="stylesheet" href="../css/generate.css" />
+  </head>
+  <body>
+      <div class="Nav">
+        <div class="Nav-non-select-1">Image</div>
+        <div class="Nav-non-select-2">Clipboard</div>
+        <div class="Nav-select">Generate</div>
+      </div>
+        <div class="URL">
+          <div class="Download-button">
+            <img src="/images/Download.svg" alt="Download" class="Download" />
+          </div>
+          <div class="URL-input-container">
+            <input type="text" class="url-input" placeholder="Enter URL" />
+            <div class="generate-button-container">
+              <img src="/images/Generate-button.svg" alt="Generate-button" class="Generate-button" />
+            </div>
+          </div>
+        </div>
+          <div class="Image">
+            <div class="Image-container">
+              <img src="/images/Generate-button.svg" alt="Generate-icon" class="Generate-icon" />
+            </div>
+            <div class="Generate-text-container">
+              <div class="Generate-text-1">QR code image</div>
+              <div class="Generate-text-2">will appear here</div>
+            </div>
+          </div>
+        </div>
+
+    <script src="../js/qrcode.min.js"></script>
+    <script src="../js/generate.js"></script>
+  </body>
+</html>
