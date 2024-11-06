@@ -1,4 +1,4 @@
-### QR Reader & Generator - MIT License
+- QR Reader & Generator - MIT License
 
 MIT License
 
@@ -23,7 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-### jsQR.js - Apache License 2.0
+- jsQR.js - Apache License 2.0
 
                                  Apache License
                            Version 2.0, January 2004
@@ -227,7 +227,7 @@ SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 
-### qrcode.min.js - MIT License
+- qrcode.min.js - MIT License
 
 The MIT License (MIT)
 ---------------------
